@@ -52,6 +52,7 @@ public class MenuButton extends StackPane {
         test = title.getBoundsInLocal().getHeight();
 
         title.setText(menuTitle);
+        title.setTextFill(Color.WHITE);
         title.setFont(Font.font(size));
 
         setAction();
